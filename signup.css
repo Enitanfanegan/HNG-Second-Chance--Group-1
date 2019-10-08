@@ -1,0 +1,127 @@
+body {
+	position: absolute;
+	left: 28.2%;
+	right: 28.2%;
+	top: 10.62%;
+	bottom: 10.62%;
+	background: #FFFFFF;
+	box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+}
+h1 {
+	position: absolute;
+	left: 31.9%;
+	right: 21.9%;
+	top: 12.5%;
+	bottom: 78.75%;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: 500px;
+	font-size: 36px;
+	line-height: 24px;
+	background: #140300;
+	width: 264px
+}
+.first {
+	position: absolute;
+left: 34.9%;
+right: 21.9%;
+top: 24.19%;
+bottom: 69.06%;
+width: 250px;
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #7A7A7A;
+}
+a {
+	color: #C9472C;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+
+}
+.second input {
+	position: absolute;
+	left: 30.61%;
+	right: 39.73%;
+	top: 34.53%;
+	bottom: 58.59%;
+	width: 264px;		
+	background: #FFFFFF;
+	border: 0.5px solid #C9472C;
+	box-sizing: border-box;
+	box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+.third input {
+	position: absolute;
+	left: 30.61%;
+	right: 39.65%;
+	top: 46.41%;
+	bottom: 46.72%;
+	background: #FFFFFF;
+	border: 0.5px solid #C9472C;
+	box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	width: 264px;
+	text-align: center;	
+	font-family: 'Ubuntu', sans-serif;
+}
+.choose select {
+	position: absolute;
+left: 30.61%;
+right: 39.65%;
+top: 58.44%;
+bottom: 34.69%;
+
+background: rgba(35, 30, 30, 0.5);
+border-radius: 6px;
+width: 264px;
+font-family: 'Ubuntu', sans-serif;
+}
+.fourth  {
+	position: absolute;
+left: 57.89%;
+right: 39.53%;
+top: 64.53%;
+bottom: 29.22%;
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 24px;
+width: 150px;
+color: #C9472C;
+}
+.btn button {
+	position: absolute;
+width: 264px;
+height: 48px;
+left: 30.61%;
+right: 39.53%;
+top: 72.03%;
+bottom: 29.22%;
+background: #C9472C;
+border-radius: 6px;
+color: #fff;
+font-size: 18px;
+font-style: bold;
+font-family: 'Ubuntu', sans-serif;
+}
+input select button {
+	position: absolute;
+width: 100px;
+height: 24px;
+left: 527px;
+top: 231px;
+font-family: 'Ubuntu', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.3);
+}
+
