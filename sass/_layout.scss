@@ -1,0 +1,38 @@
+
+
+
+.content {
+    display: flex; 
+
+    @media (max-width: $bp-medium){
+        flex-direction: column;
+    }
+
+    .sidebar {
+        flex: 0 0 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .main-view {
+        flex: 1;
+    }
+
+    .main-view__primary,
+    .main-view__seconday{
+        display: flex;
+        padding: 2rem;
+        background: var(--color-grey-light-2);
+
+        @media(max-width: $bp-large) {
+            padding: 1rem;
+        }
+
+        @media(max-width: $bp-small){
+            flex-direction: column;
+        }
+    }
+    
+}
