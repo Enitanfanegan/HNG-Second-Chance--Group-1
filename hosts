@@ -1,0 +1,2 @@
+[httpservers]
+ubuntu ansible_host=52.200.161.52

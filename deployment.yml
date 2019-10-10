@@ -1,0 +1,15 @@
+---
+- hosts: all
+  tasks: 
+    - name: deploy web app
+      git: 
+        repo: https://github.com/Enitanfanegan/HNG-Second-Chance-Group-1.git
+        dest: /home/ubuntu/hng
+        version: track-cd
+        accept_hostkey: yes
+        force: yes
+      become_user: ubuntu
+    - name: docker-compose.yml
+      docker_compose:
+        project_src: /home/ubuntu/HNG-Second-Chance-Group-1/docker-compose.yml
+      become: true
