@@ -39,6 +39,7 @@ h2 {
 
 h2 a {
     color: #000000 !important;
+    text-decoration-line: none !important;
 }
 
 
@@ -264,8 +265,14 @@ img {
     border: solid 3px #81D4FA;
 }
 
-input {
+input,
+textarea {
     box-shadow: 0 0 2px grey;
+    padding-left: 2%;
+}
+
+textarea {
+    padding-top: 1.5%;
 }
 
 input:focus {
