@@ -10,6 +10,11 @@ $dbname = "intern_grader";
 
 $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
 
+if (!$conn) {
+    echo "Unable to connect ".mysql_error();
+}
+else {
+
 if(isset($_POST['login'])) {
 
     $usertype = $_POST['usertype'];
@@ -29,12 +34,13 @@ if(isset($_POST['login'])) {
 			exit();
         }
     } else {
-        echo '<script type="text/javascript">alert("Log-in unsuccessful! Email or password is incorerect")</script>';
+        echo '<script type="text/javascript">alert("Log-in unsuccessful! Email or password is incorrect")</script>';
 		?>
             <script type = "text/javascript">
             window.location.href="login.html"</script>
             <?php
 	}
+}
 }
 ob_end_flush();
 ?>

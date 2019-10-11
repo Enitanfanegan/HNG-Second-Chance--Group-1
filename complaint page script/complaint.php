@@ -1,3 +1,8 @@
+<?php
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +15,7 @@
     <div class="container">
         <h1>Complaint Form</h1>
         <p>Please fill out the following form with your complaint. We will review your request and follow up with you as soon as possible.</p>
-        <form action="#" method="POST">
+        <form action="complaint_post.php" method="POST">
 
             <div class="first-lastname">
             <label for="firstname">Name</label>
@@ -18,6 +23,19 @@
             <input type="text" pattern="[a-zA-Z]{3,}" title="Please enter at least 3 characters"placeholder="First Name" name="firstname" required>
             <label for="lastname"></label>
             <input type="text" placeholder="Last Name" name="lastname" pattern="[a-zA-Z]{3,}" title="Please enter at least 3 characters"required>
+            <br> <br>
+            <label for="lastname">Slack username</label><br>
+            <input type="text" placeholder="slack username" name="slack" pattern="[a-zA-Z]{3,}" title="Please enter at least 3 characters"required>
+
+            <label for="lastname">mentors</label>
+            <select  style="border:1px solid #c9472c; padding:0.5em; margin-left:1.9; border-radius:6px; width:200px;" type="text" placeholder="slack username" name="mentor" pattern="[a-zA-Z]{3,}" title="Please enter at least 3 characters"required>
+                <option name="xylux"> xylux</option>
+                <option name="Edeediong"> Edeediong</option>
+                <option name="professor"> professor</option>
+                <option name="ghost"> ghost</option>
+                <option name="adefayoCodes"> adefayoCodes</option>
+
+</select>
             </div>
 
             <div class="email">
@@ -29,17 +47,17 @@
             <div class="phone">
             <label for="phone">Phone</label>
             <br>
-            <input type="text" placeholder="+2347000000000" name="phone" pattern="[+][0-9]{15,}" title="Please enter a valid phone number" required>
+            <input type="text" placeholder="+2347000000000" name="phone" pattern="[+][0-9]{12,}" title="Please enter a valid phone number" required>
             </div>
 
             <div class="textarea">
             <label for="complaint">Complaint</label>
             <br>
-            <textarea type="text" placeholder="Message..." name="complaint" required></textarea>
+            <textarea type="text" placeholder="Message..." name="msg" required></textarea>
             </div>
 
             <div class="submitbtn">
-            <button type="submit" name="submit_complaint" class="submitbtn">SUBMIT <img src="https://res.cloudinary.com/walebant/image/upload/v1570629711/right-arrow.svg" alt="right-arrow"></button>
+            <button type="submit" class="submitbtn" name="submit">SUBMIT <img src="https://res.cloudinary.com/walebant/image/upload/v1570629711/right-arrow.svg" alt="right-arrow"></button>
             </div>
         </form>
     </div>
