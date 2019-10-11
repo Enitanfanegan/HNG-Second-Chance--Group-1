@@ -1,0 +1,79 @@
+body {
+    height: 100%;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    background: #FFFFFF;
+    border: 0.5px solid #C9472C;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    width: 345px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 3rem;
+}
+.form-style{
+width: 50%;
+border-radius: 10px;
+border-color: #C9472C;
+padding: 8px 20px;
+}
+
+	@media screen and (max-width: 400px) {
+
+	    .container {
+	        overflow-x: hidden;
+        }
+        
+        input[type=text],
+        input[type=password],
+        input[type=email] {
+            width: 264px;
+        }
+
+    }
+    
+    .message {
+        color: rgb(177, 28, 28);
+        background: rgb(139, 126, 126);
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        margin-top: .5rem;
+        display: none;
+    }
+    .passMessage{
+        color: rgb(177, 28, 28);
+        background: rgb(139, 126, 126);
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        margin-top: .5rem;
+        display: none;
+    }
+
+    .emailErr{
+        color: rgb(177, 28, 28);
+        background: rgb(139, 126, 126);
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        margin-top: .5rem;
+        display: none;
+    }
+    .errMessage{
+        color: rgb(177, 28, 28);
+        background: rgb(139, 126, 126);
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 5px;
+        margin-top: .5rem;
+        display: none;
+    }

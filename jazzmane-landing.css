@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+nav {
+    margin: 35px;
+}
+
+body {
+    position: relative;
+    width: 1280px;
+    height: 640px;
+    background: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    color: black !important;
+    font-weight: 500 !important;
+}
+
+.nav a {
+    color: black !important;
+}
+
+.login-btn a {
+    width: 110px;
+    height: 40px;
+    border: 1px solid #C9472C;
+    font-family: 'Ubuntu', sans-serif !important;
+    text-align: center;
+    font-weight: 600 !important;
+    border-radius: 6px;
+    border: solid 1px rgb(238, 209, 209);
+    box-shadow: 1px 1px 1px #c2acac !important;
+}
+
+.login-btn a:hover {
+    width: 110px;
+    height: 40px;
+    border: 1px solid #C9472C;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: 600 !important;
+    text-align: center;
+    background: rgba(201, 70, 44, 0.89);
+    border: solid 2px 2px rgb(238, 209, 209);
+    color: #fff !important;
+    border-radius: 6px;
+    /* box-shadow: 2px 2px 7px #c2acac !important; */
+}
+
+.login-btn a {
+    font-family: 'Ubuntu', sans-serif !important;
+    font: bold;
+}
+
+
+/* CIRCLES IN BACKGROUND */
+
+.right-circle {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    left: 496px;
+    top: -89px;
+    /* background: rgba(201, 71, 44, 0.3); */
+}
+
+.top-left-circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -48px;
+    top: -56px;
+    /* background: rgba(201, 71, 44, 0.3); */
+}
+
+.bottom-left-cicle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -48px;
+    top: 508px;
+    /* background: rgba(201, 71, 44, 0.3); */
+}
+
+
+/* TOP-TEXT AND BUTTON (HNG INTERSHIPPP..... */
+
+h1 {
+    position: absolute;
+    width: 35%;
+    height: 74px;
+    left: 75px;
+    top: 223px;
+    font-family: Ubuntu;
+    font: bolder;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 24px;
+    /* or 48% */
+    color: #000000;
+}
+
+.btn {
+    position: absolute;
+    width: 300px;
+    height: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    left: 75px;
+    top: 340px;
+    /* Primary */
+    background: #C9472C !important;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    position: absolute;
+    width: 300px;
+    height: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    left: 75px;
+    top: 340px;
+    /* Primary */
+    background: #C9472C !important;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px #c2acac !important;
+    border: solid 2px #fff !important;
+}

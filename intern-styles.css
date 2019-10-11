@@ -1,0 +1,60 @@
+/*navabar*/
+
+.logo{
+font-size: 2rem;
+font-weight: bold;
+color: #C9472C;
+}
+
+/*container*/
+.container-fluid{
+    font-family: 'Ubuntu', sans-serif;
+}
+.input-group-text{
+    background-color: #C9472C;
+}
+
+/* Table*/
+table{
+    
+    border: 1px solid #CCC;
+    color: #C9472C;
+    font-size: 16px;
+    overflow: scroll;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+     }
+
+table td {
+    padding: 4px;
+    margin: 3px;
+    border: 1px solid #CCC;
+}
+/* buttons*/
+
+.passed{
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+    margin-right: 5%;
+    padding: 1%;
+    border: 1px solid green;
+}
+.resubmit{
+    background-color: orangered;
+    border-radius: 8px;
+    color: white;
+    padding: 1%;
+    border: 1px solid orangered;
+}
+/* Phones */
+@media (max-width: 575.98px) {
+    table{
+        font-size: 0.5rem;
+    }
+    
+     }
+
+
+    
