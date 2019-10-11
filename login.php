@@ -29,7 +29,7 @@ if(isset($_POST['login'])) {
 			exit();
         }
     } else {
-        echo '<script type="text/javascript">alert("Log-in unsuccessful! Email or password is incorerect")</script>';
+        echo '<script type="text/javascript">alert("Log-in unsuccessful! Email or password is incorrect")</script>';
 		?>
             <script type = "text/javascript">
             window.location.href="login.html"</script>
