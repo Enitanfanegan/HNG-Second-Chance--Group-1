@@ -1,0 +1,257 @@
+html {
+    margin: auto;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+
+nav {
+    /* margin: 25px 25px; */
+    margin: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* LOGO TEXT */
+
+h2 {
+    position: absolute;
+    width: 51px;
+    height: 28px;
+    left: 81px;
+    top: 37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+/* NAVS */
+
+.faq {
+    position: absolute;
+    width: 27px;
+    height: 21px;
+    left: 922px;
+    top: 44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #000000;
+    text-decoration-line: none;
+}
+
+.contact-us {
+    position: absolute;
+    width: 89px;
+    height: 21px;
+    left: 1071px;
+    top: 43px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: none;
+    /* identical to box height */
+}
+
+.sign-up {
+    position: absolute;
+    width: 60px;
+    height: 21px;
+    left: 1194px;
+    top: 43px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: none;
+    /* identical to box height */
+    color: #000000;
+}
+
+.sign-up a,
+.faq a,
+.contact-us a,
+.about a,
+.login-btn a {
+    text-decoration-line: none !important;
+    color: #000000 !important;
+}
+
+.about {
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    left: 991px;
+    top: 43px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #36C0FF !important;
+}
+
+hr {
+    border: 1px solid #81D4FA !important;
+    border-radius: 10px;
+}
+
+.login-btn {
+    position: absolute;
+    width: 107px;
+    height: 39px;
+    left: 1303px;
+    top: 33px;
+    background: #81D4FA;
+    border-radius: 20px;
+    text-decoration-line: none;
+    text-align: center;
+    border: 2px solid #81D4FA;
+    box-shadow: 0 0 3px #000000;
+    vertical-align: auto;
+}
+
+.login-btn:hover {
+    position: absolute;
+    width: 107px;
+    height: 39px;
+    left: 1303px;
+    top: 33px;
+    background: #81D4FA;
+    border-radius: 20px;
+    text-decoration-line: none;
+    text-align: center;
+    border: 2px solid #81D4FA;
+    box-shadow: 0 0 3px #000000;
+    border: solid 2px #ffffff;
+}
+
+
+/* BACKGROUND PROPS */
+
+.form-top-text {
+    position: absolute;
+    width: 197.8px;
+    height: 47.76px;
+    left: 960.72px;
+    top: 184px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #03051A;
+}
+
+.shape-svg {
+    position: absolute;
+    width: 1440px;
+    height: 545.5px;
+    left: 0px;
+    top: 349.5px;
+    /* background: rgba(129, 212, 250, 0.09); */
+}
+
+img {
+    /* email-1975010_1280 1 */
+    position: absolute;
+    width: 476.61px;
+    height: 242.87px;
+    left: 107px;
+    top: 280.52px;
+    transform: rotate(-2.61deg);
+}
+
+
+/* INPUTS (FORM)*/
+
+#full-name {
+    position: absolute;
+    width: 447px;
+    height: 51px;
+    left: 856px;
+    top: 243px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+#email {
+    position: absolute;
+    width: 447px;
+    height: 47px;
+    left: 856px;
+    top: 338px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+#subject {
+    position: absolute;
+    width: 447px;
+    height: 45px;
+    left: 856px;
+    top: 427px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+#message {
+    position: absolute;
+    width: 447px;
+    height: 179.09px;
+    left: 856px;
+    top: 531.24px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.send-btn {
+    position: absolute;
+    width: 447px;
+    height: 39px;
+    left: 856px;
+    top: 736px;
+    background: rgba(11, 104, 192, 0.788);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.send-btn:hover {
+    position: absolute;
+    width: 447px;
+    height: 39px;
+    left: 856px;
+    top: 736px;
+    background: rgba(11, 104, 192, 0.788);
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: solid 3px #81D4FA;
+}
+
+input {
+    box-shadow: 0 0 2px grey;
+}

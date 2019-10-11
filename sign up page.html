@@ -2,7 +2,10 @@
 <html>
 
 <head>
-    <title>Welcome</title>
+    <title>Signup</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <link rel = "stylesheet"
    type = "text/css"
@@ -20,7 +23,7 @@
                 <div class="col-md-12 text-center">
 
                     <h2>Welcome!</h2>
-                    <p>Already have an account? <span ><b><a href="#" style="color: orangered;">Log in</a></b></span></p>
+                    <p>Already have an account? <span><b><a href="#" style="color: #C9472C;">Log in</a></b></span></p>
                     <form class="">
                         <div class="form-group">
                             <input type="text" name="firstname" class="form-style"
@@ -30,6 +33,14 @@
                                 <p id="validfname"></p>
                             </small>
                         </div>
+                        <div class="form-group">
+                            <input type="text" name="username" class="form-style"
+                        id="Uname"
+                                placeholder="Username" required class="input text-input Uname" minlength="5">
+                            <small>
+                                <p id="validUname"></p>
+                            </small>
+                        </div>
 
                         <div class="form-group">
                             <input type="email" class="form-style" id="inputEmail" aria-describedby="emailHelp"
@@ -37,12 +48,12 @@
 
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-style" id="inPass"
-                                placeholder="Enter Password" required class="input text-input">
+                            <input type="password" class="form-style" id="inPass" name="password"
+                                placeholder="Enter Password" required class="input text-input" minlength="6">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-style" id="cnfPass"
-                                placeholder="Confirm Password" required class="input text-input">
+                            <input type="password" class="form-style" id="cnfPass" name="confirm_password"
+                                placeholder="Confirm Password" required class="input text-input" minlength="6">
                         </div>
                         <div class="dropdown">
                             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
@@ -53,10 +64,16 @@
                                 <a class="dropdown-item" href="#">Intern</a>
                             </div>
                         </div>
-
+                                 <p class="message">Name fields cannot be empty!</p>
+                                 <p class="passMessage">Passwords do not match</p>
+                                 <p class="emailErr">Email is not valid</p>
+                                 <p class="errMessage"></p>
 
                         <br>
-                        <button type="submit"  style="background-color: orangered; color:white; border-radius: 10px; border:orangered; width:160px; height:40px;">Sign Up</button>
+                        <button type="submit" id="signUp-btn"
+                            style="background-color: #C9472C; color:white; border-radius: 10px; border:#C9472C;
+                            width:160px; height:40px;">Sign
+                            Up</button>
                     </form>
                     <small>By signing up you are agreeing to our <span><a href="#">terms of service.</a> Privacy Policy
                         </span></small>
@@ -75,9 +92,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
-
-
+    <script src="./assets/js/signUp.js"></script>
 </body>
 
 </html>
