@@ -52,7 +52,7 @@
                             </form>                     
                  </nav>
         <?php
-            //search Code
+            //search for the intern on the database
             if(isset($_POST['search_btn']) and $_POST['search_btn']="search"){ 
                  $search=$_POST['search'];
                  echo "<h3>Search Results</h3>";
@@ -112,7 +112,7 @@
            <!--Table-->
 
            <?php
-                // Check connection
+                // List all the intern on the database
                 if($connection === false){
                     die("ERROR: Could not connect. " . mysqli_connect_error());
                 }
