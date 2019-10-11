@@ -3,7 +3,6 @@ const inpPass = document.getElementById('inp-pass')
 const login = document.querySelector('.button')
 const message = document.querySelector('.message')
 
-
 login.addEventListener('click', e => {
     e.preventDefault()
     if (inpPass.value !== '' && inpText.value !== '') {
