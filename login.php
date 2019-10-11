@@ -10,6 +10,11 @@ $dbname = "intern_grader";
 
 $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
 
+if (!$conn) {
+    echo "Unable to connect ".mysql_error();
+}
+else {
+
 if(isset($_POST['login'])) {
 
     $usertype = $_POST['usertype'];
@@ -35,6 +40,7 @@ if(isset($_POST['login'])) {
             window.location.href="login.html"</script>
             <?php
 	}
+}
 }
 ob_end_flush();
 ?>
