@@ -87,7 +87,7 @@
                                     echo "<td>" . $row['slack_username'] . "</td>";
                                     echo "<td>" . $row['track'] . "</td>";
                                     echo "<td>" . $row['submission_url'] . "</td>";
-                                    echo "<td>" . $row['mentor_remarks'] . "</td>";?>
+                                    echo "<td>" . $row['mentors_remark'] . "</td>";?>
                                     <td><button type="submit"class="passed" name="passed" value="passed">PASSED</button><button type="submit" class="resubmit" name="resubmit">RESUBMIT</button></td>
                         <?php
                                 echo "</tr>";
