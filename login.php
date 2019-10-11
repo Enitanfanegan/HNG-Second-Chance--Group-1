@@ -2,10 +2,9 @@
 ob_start();
 session_start();
 
-
-$servername = "localhost";
+$servername = "mysql";
 $dbusername = "root";
-$dbpassword = "";
+$dbpassword = "password";
 $dbname = "intern_grader";
 
 $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
