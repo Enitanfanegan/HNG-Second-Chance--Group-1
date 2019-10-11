@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar{
+    float: left;
+    background-color: #1B1E24;
+    width: 20%;
+    height: 785px;
+    color: white;
+}
+.listItems{
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+}
+h1.listItems{
+    padding: 5% 0 10% 5%;
+    font-size: 50px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.middlebar{
+    width: 30%;
+    float: left;
+}
+.profilePic{
+    margin-top: 15%;
+    margin-bottom: 25%;
+    color: gray;
+    text-align: center;
+    font-size: 30px;
+}
+.middleItems{
+    color: gray;
+    display: block;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+.middleIcon{
+    margin-left: 2%;
+    width: 40px;
+}
+.middleIcon:hover{
+    cursor: pointer;
+}
+.middleItems:hover{
+    cursor: pointer;
+}
+.rightbar{
+    float: right;
+    width: 40%;
+    color: gray;
+}
+.rightHeader{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+}
+.textbox{
+    width: 55%;
+    border-radius: 5px;
+    margin-left: 7%;
+    height: 30px;
+}
+.textarea{
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 7%;
+    height: 60px;
+}
+.update{
+    color: white;
+    background-color: #377DF9;
+    text-align: center;
+    border: 3px solid #377DF9;
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10%;
+}
+.cancel{
+    color: white;
+    background-color: #1B1E24;
+    text-align: center;
+    border: 3px solid #1B1E24;
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10%;
+}
+hr{
+    width: 90%;
+    margin-bottom: 20%;
+    margin-top: -30px;
+    background-color: #1B1E24;
+}
