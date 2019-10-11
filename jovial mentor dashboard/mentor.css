@@ -1,0 +1,25 @@
+.bord{
+    border-right:4px solid #00AEFF;
+}
+.bordC {
+    border:5px solid #00AEFF; 
+}
+.bordCdash{
+    border:2.5px solid #00AEFF;
+  
+}
+.ul {
+    list-style: none;
+}
+.btn-custom {
+
+    margin: 2em auto auto auto;
+     display:block;
+     width:9em;
+}
+.bnh{
+    float:right;
+    clear:left;
+    display:block;
+   
+}
