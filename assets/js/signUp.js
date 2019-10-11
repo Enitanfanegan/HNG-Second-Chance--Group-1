@@ -11,19 +11,15 @@ signUp.addEventListener('click', e => {
     e.preventDefault()
     for (let i = 0; i < signUp_inp.length; i++) {
         if(signUp_inp[i].name === 'username' || signUp_inp[i].name === 'password'){
-            console.log(username.value.length)
             if (username.value.length < 5){
                 errMessage.style.display = 'block'
                 errMessage.innerHTML = 'Username must be 5 or above'
-                console.log('username is not valid')
             }
             else if(password.value.length < 6 && password.value !== ''){
                 errMessage.style.display = 'block'
                 errMessage.innerHTML = 'Password must be 6 or above'
-                console.log('password field')
             }
             else{
-                console.log('username is valid')
                 errMessage.style.display = 'none'
                 errMessage.innerHTML = ''
             }

@@ -1,8 +1,12 @@
 
-	.body {
-		font-family: 'Ubuntu', sans-serif;
+	* {
 		margin: 0;
 		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	.body{
+		font-family: 'Ubuntu', sans-serif;
 	}
 	
 	.container {
@@ -11,7 +15,7 @@
 		align-items: center;
 		text-align: center;
 		flex-direction: column;
-		transform: translate(0%, 20%);
+		height: 100vh;
 	}
 	
 	
@@ -25,7 +29,8 @@
 	}
 	
 	input[type=text],
-	input[type=password] {
+	input[type=password],
+	input[type=email] {
 		background: #FFFFFF;
 		border: 0.5px solid #C9472C;
 		box-sizing: border-box;
@@ -81,7 +86,7 @@
 	
 	.form-header {
 	
-		font-weight: 500px;
+		font-weight: 500;
 		font-size: 36px;
 		line-height: 24px;
 		width: 264px

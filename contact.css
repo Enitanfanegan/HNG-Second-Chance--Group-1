@@ -1,0 +1,24 @@
+#success_message {
+    display: none;
+}
+
+.main-container{
+    display: flex;
+}
+
+.avatar{
+ flex: 0 0 40%;
+}
+
+.account{
+    flex: 1;
+    margin-left: 4rem;
+}
+
+.form-group{
+    width: 200%;
+}
+
+.form-group__1{
+    width: 110%;
+}

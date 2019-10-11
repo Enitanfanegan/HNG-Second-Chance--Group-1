@@ -10,29 +10,29 @@
 <body>
     <div class="container">
 
-        <form class="form">
+        <form class="form" action = "login.php" method = "POST">
             <h1 class="form-header">Welcome back!</h1>
             <p class="first">Don't have an account yet?
                 <a href="#">Sign Up</a>
             </p>
             <div class="inp-box">
-                <input type="text" placeholder="Enter Username" name="uname" id="inp-text" required>
+                <input type="text" placeholder="Enter Username" name="uname" id="inp-text" required minlength="5">
             </div>
             <div class="inp-box">
-                <input type="password" placeholder="Enter Password" name="psw" id="inp-pass" required>
+                <input type="password" placeholder="Enter Password" name="psw" id="inp-pass" required minlength="6">
             </div>
 
             <div class="choose">
                 <label></label>
-                <select>
+                <select name="usertype">
                     <option>mentor</option>
                     <option>intern</option>
                 </select>
             </div>
-            <p class="fourth"><a href="#">Forgot Password?</a></p>
+            
             <p class="message">Name fields cannot be empty!</p>
             <div class="btn">
-                <button class="button">Log in</button>
+                <button class="button" name="login">Log in</button>
             </div>
         </form>
     </div>
