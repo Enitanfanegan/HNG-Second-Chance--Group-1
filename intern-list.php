@@ -57,13 +57,13 @@
                  $search=$_POST['search'];
                  echo "<h3>Search Results</h3>";
                   // Check connection
-                if($connection === false){
+                if($conn === false){
                     die("ERROR: Could not connect. " . mysqli_connect_error());
                 }
                  
                 // Attempt select query execution
                 $sql = "SELECT slack_username FROM intern_list INNER JOIN interns INNER JOIN stages INNER JOIN track ON interns.slack_username";
-                if($result = mysqli_query($connection, $sql)){
+                if($result = mysqli_query($conn, $sql)){
                     if(mysqli_num_rows($result) > 0){
                         $sn=0;
                         ?>
@@ -99,11 +99,11 @@
                             echo "No Intern Record is found";
                         }
                     } else{
-                        echo "ERROR: Could not able to execute $sql. " . mysqli_error($connection);
+                        echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
                     }
                     
                     // Close connection
-                    mysqli_close($connection);
+                    mysqli_close($conn);
 
             }
         else { 
@@ -113,13 +113,13 @@
 
            <?php
                 // List all the intern on the database
-                if($connection === false){
+                if($conn === false){
                     die("ERROR: Could not connect. " . mysqli_connect_error());
                 }
                 
                 // Attempt select query execution
                 $sql = "SELECT * FROM intern_list INNER JOIN interns INNER JOIN stages INNER JOIN track ON intern_list.intern_list_id= interns.intern_id=stages.stage_id=track.track_id";
-                if($result = mysqli_query($connection, $sql)){
+                if($result = mysqli_query($conn, $sql)){
                     if(mysqli_num_rows($result) > 0){
                         $sn=0;
                         ?>
@@ -155,11 +155,11 @@
                             echo "No Intern Record is found";
                         }
                     } else{
-                        echo "ERROR: Could not able to execute $sql. " . mysqli_error($connection);
+                        echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
                     }
                     
                     // Close connection
-                    mysqli_close($connection);
+                    mysqli_close($conn);
 
                 }
          ?>
